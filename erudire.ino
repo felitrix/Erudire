@@ -50,13 +50,13 @@ void loop()
         {                        // if number is 0
             lcd.clear();         // clear display
             lcd.setCursor(0, 0); // move cursor to first column of first line
-            lcd.print("Yes");    // display "Sim" on display
+            lcd.print("Yes");    // display "Yes" on display
         }
         if (r == 1)
         {                        // if number is 1
             lcd.clear();         // clear display
             lcd.setCursor(0, 0); // move cursor to first column of first line
-            lcd.print("No");    // display "Nao" on display
+            lcd.print("No");    // display "No" on display
         }
         if (r == 2)
         {                        // if number is 2
